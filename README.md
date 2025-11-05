@@ -1,50 +1,39 @@
-# Welcome to your Expo app 👋
+# <img src="./assets/images/icon.png" alt="App Icon" width="50" height="50" style="border-radius: 70%;"> OMD - One Minute Diary
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> **Note**: The last stable and published version corresponds to **Commit August 28 "..."**
 
-## Get started
+## Overview
 
-1. Install dependencies
+OMD is an app designed to help users track daily entries and analyze how their values change over time. A unique feature of the app is its ability to identify correlations between variables, providing insights into how changes in one variable influence another. This empowers users to uncover hidden patterns and adjust their behavior to achieve improvements, such as increased productivity.
 
-   ```bash
-   npm install
-   ```
+## Availability
 
-2. Start the app
+The app is available in the **iOS App Store** and **Google Play Store** under the name **OMD - One Minute Diary**.  
+Alternatively, you can download the APK directly [here](./aditional-media/application-a01a8b46-22be-48e1-a452-9926e0e72011.apk).
 
-   ```bash
-   npx expo start
-   ```
+## UI 
 
-In the output, you'll find options to open the app in a
+- **Google Playstore Banner**: Incuding the most relevant UI components
+  <img src="./aditional-media/en.png" alt="Start Screen" style="max-width: 100%; height: auto; width: 600px;">
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Technical Details
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Built with **React Native**.
+- Graph rendering for data visualization.
+- Correlation calculations for variable analysis.
+- **Biometric Authentication** for secure access.
+- Data storage using **SQLite** and **AsyncStorage**.
+- Import/export functionality via **expo-sharing** in CSV format.
+- Fully standalone—no backend required.
 
-## Get a fresh project
+## Current Version
 
-When you're ready, run:
+The version published in the iOS and Google Play stores corresponds to **Commit X** (to be added later).  
+Future updates will expand functionality, allowing users to choose from 10 categories with up to 15 variables, instead of the current limit of 10 fixed variables.
 
-```bash
-npm run reset-project
-```
+## Usage Rights
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+All rights to this repository are owned by **OMD - One Minute Diary**.  
+This repository is provided for educational purposes only, allowing developers to understand how specific components are implemented. 
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+**❌Please don't copy code directly; that's not cool.❌**
